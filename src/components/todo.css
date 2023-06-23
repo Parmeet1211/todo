@@ -1,0 +1,40 @@
+ .todo-btn {
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .eachItem {
+    background: #fff;
+    padding: 1.2rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+    margin-left: 1rem;
+    min-width: 40rem;
+    word-break: break-word;
+    background: rgb(222, 214, 249);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .eachItem:hover {
+    background: rgb(249, 249, 252);
+    color: rgb(85, 41, 220);
+  }
+  
+  .showItems .eachItem h3 {
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  .eachItem:hover .fa-trash-alt {
+    color: rgb(214, 47, 61);
+  }
+  
+  .eachItem:hover .fa-edit {
+    color: rgb(100, 214, 47);
+  }
+  
+  .eachItem:hover h3 {
+    color: rgb(85, 41, 220);
+  }
